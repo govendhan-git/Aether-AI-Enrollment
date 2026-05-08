@@ -1,0 +1,38 @@
+# Dependencies
+node_modules
+
+# Next.js build output
+.next
+out
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Debug logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+
+# Generated / cached ML model files
+local_cache/
+
+# Generated brochures (run brochures:gen to recreate)
+public/brochures/*.pdf
+
+# Generated product images (run images:gen to recreate)
+public/images/products/
+
+# TypeScript build info
+*.tsbuildinfo
+next-env.d.ts
