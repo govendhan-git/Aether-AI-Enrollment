@@ -114,7 +114,7 @@ async function run() {
       clerkUserId: 'seed_astiram_emp_1',
       email: 'manivasagam@astiram.com',
       legalEntityId: astiram._id,
-      personal: { firstName: 'Govendhan', lastName: 'Manivasagam', email: 'manivasagam@astiram.com' },
+      personal: { firstName: 'Alask', lastName: 'Awery', email: 'AlaskAwery@gmail.com' },
       employment: { employeeId: 'AST1001', department: 'Engineering', hireDate: new Date(2022, 0, 15), companyId: astiram._id }
     });
   }
